@@ -1,0 +1,32 @@
+# ============================================================================
+# PYTHON PACKAGE REQUIREMENTS:
+# ============================================================================
+# REQUIRES: Python >= 2.6
+# DESCRIPTION:
+#    pip install -r <THIS_FILE>
+#
+# SPECIFIC DEPENDENCIES:
+#   behave  -- BDD test framework, cucumber-clone for Python.
+#   paver   -- Development and build support (optional)
+#   pyhamcrest -- As assertations matcher library.
+#
+# MAYBE:
+#   nose:       for assertations: eq_(x, y)
+#   pytest:     for assertations
+# ============================================================================
+
+# -- BEHAVE-RELATED:
+behave >= 1.2.6
+traceback2 >= 1.4.0;    python_version <= '3.0'
+parse >= 1.8.2
+parse_type >= 0.4.2
+allure-behave==2.13.1
+allure-python-commons==2.13.1
+argparse
+PyHamcrest >= 1.9
+
+# ALTERNATIVE:
+# hg+https://jenisys@bitbucket.org/jenisys/sphinx-contrib#egg=sphinxcontrib-ansi&subdirectory=ansi
+
+# -- OPTIONAL DOCUMENTATION: If PDF docs are needed.
+# rst2pdf
